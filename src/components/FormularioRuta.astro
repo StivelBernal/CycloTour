@@ -1,0 +1,42 @@
+---
+const onSubmit = "handleFormulario(event)";
+---
+
+<form id="formRuta" on:submit={onSubmit}>
+  <label>
+    Título:
+    <input type="text" name="titulo" required />
+  </label>
+  <br />
+  <label>
+    Descripción:
+    <textarea name="descripcion" required></textarea>
+  </label>
+  <br />
+  <label>
+    Autor:
+    <input type="text" name="autor" required />
+  </label>
+  <br />
+  <button type="submit">Publicar</button>
+
+  <script type="module">
+    function handleFormulario(event) {
+      event.preventDefault();
+      const form = event.target;
+      const data = new FormData(form);
+      const ruta = {
+        titulo: data.get("titulo"),
+        descripcion: data.get("descripcion"),
+        autor: data.get("autor"),
+      };
+
+      const rutas = JSON.parse(localStorage.getItem("rutas") || "[]");
+      rutas.push(ruta);
+      localStorage.setItem("rutas", JSON.stringify(rutas));
+
+      alert("Ruta publicada (guardada localmente)");
+      window.location.href = "/";
+    }
+  </script>
+</form>
