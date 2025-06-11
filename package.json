@@ -1,0 +1,22 @@
+{
+  "name": "cyclotour",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "loc": "sh ./count-loc-por-commit.sh"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^5.9.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
