@@ -1,3 +1,10 @@
+---
+import randomRoutes from '../utils/getRandomRoutes';
+
+const routes = randomRoutes(3)
+
+---
+
 <footer class="bg-gray-100 border-t border-gray-300 mt-16 text-gray-700 text-sm">
   <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
     <!-- Logo y descripción -->
@@ -20,9 +27,9 @@
     <div>
       <h3 class="font-semibold mb-2">Top Rutas</h3>
       <ol class="list-decimal list-inside space-y-1">
-        <li><a href="/routes/coastal-trail" class="hover:text-blue-600">Coastal Trail</a></li>
-        <li><a href="/routes/mountain" class="hover:text-blue-600">Mountain Ride</a></li>
-        <li><a href="/routes/urban" class="hover:text-blue-600">Urban Explorer</a></li>
+          {routes.map(({ slug, title }) => (
+          <li><a href={`/routes/${slug}`} class="hover:text-blue-600">{title}</a></li>
+        ))}
       </ol>
     </div>
 
