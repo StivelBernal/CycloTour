@@ -1,0 +1,32 @@
+---
+const { points } = Astro.props;
+---
+
+<section class="poi">
+  <h2 class="text-xl font-semibold mb-4">Puntos de Interés</h2>
+  <ul class="space-y-2">
+    {points.map((punto) => (
+      <li>
+        📍 <strong>{punto.nombre}</strong> – {punto.distanciaKm} km  
+        <div class="text-sm text-gray-600">{punto.descripcion}</div>
+      </li>
+    ))}
+  </ul>
+</section>
+
+
+<style>
+.poi {
+  margin-top: 40px;
+}
+.poi h2 {
+  font-size: 20px;
+}
+.poi ul {
+  list-style: none;
+  padding: 0;
+}
+.poi li {
+  margin-bottom: 8px;
+}
+</style>

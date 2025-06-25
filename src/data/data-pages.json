@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "ruta-de-los-cafetales",
+    "title": "Ruta de los Cafetales",
+    "subtitle": "Descubre el corazón del Eje Cafetero",
+    "shortDescription": "Ruta rural entre fincas cafeteras con paisajes espectaculares.",
+    "description": "Esta ruta atraviesa las montañas cafeteras de Quindío, entre Armenia y Salento. Es ideal para quienes desean experimentar la cultura cafetera, disfrutar de aire fresco y vistas montañosas.",
+    "image": "/ruta1.jpg",
+    "distanciaKm": 42,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d127263.62293625157!2d-75.7067594666674!3d4.596133138772431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!3m2!1d4.5350003999999995!2d-75.6756888!4m5!1s0x8e388db58fdb7389%3A0x279e1388933e2000!2sSalento%2C%20Quind%C3%ADo!3m2!1d4.637365!2d-75.5703107!5e0!3m2!1ses!2sco!4v1750808923047!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Mirador de Salento",
+        "descripcion": "Vista panorámica del valle de Cocora.",
+        "distanciaKm": 15.2
+      },
+      {
+        "nombre": "Finca La Esperanza",
+        "descripcion": "Parada con degustación de café artesanal.",
+        "distanciaKm": 22.4
+      },
+      {
+        "nombre": "Puente sobre el río Quindío",
+        "descripcion": "Cruzando el paisaje natural del río.",
+        "distanciaKm": 35.6
+      }
+    ],
+    "graficos": {
+      "elevation": [80, 150, 120, 200, 180, 130, 100],
+      "dificultad": [3, 4, 3],
+      "terreno": [50, 30, 20]
+    }
+  },
+  {
+    "slug": "cicloruta-urbana-medellin",
+    "title": "Cicloruta Urbana Medellín",
+    "subtitle": "Conoce Medellín sobre dos ruedas",
+    "shortDescription": "Ruta urbana que recorre zonas emblemáticas de Medellín.",
+    "description": "Conecta puntos claves como El Poblado, Laureles y el centro de la ciudad. Ciclovías seguras, ideales para conocer la cultura paisa.",
+    "image": "/ruta2.jpeg",
+    "distanciaKm": 25,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126914.80278917449!2d-75.65957875711258!3d6.252189637826601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e442fa6958e1777%3A0x837c07a666cf50f0!2sBello%2C%20Antioquia!3m2!1d6.3367287999999995!2d-75.55958869999999!4m5!1s0x8e4682493b86ae61%3A0xe3a1b3e88840ab4!2sEnvigado%2C%20Antioquia!3m2!1d6.1672864999999994!2d-75.5836963!5e0!3m2!1ses!2sco!4v1750808583200!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Parque de los Deseos",
+        "descripcion": "Punto cultural con actividades gratuitas.",
+        "distanciaKm": 6.0
+      },
+      {
+        "nombre": "Cerro Nutibara",
+        "descripcion": "Pueblito Paisa y vista panorámica.",
+        "distanciaKm": 14.5
+      },
+      {
+        "nombre": "Parque Explora",
+        "descripcion": "Centro interactivo de ciencia y tecnología.",
+        "distanciaKm": 20.3
+      }
+    ],
+    "graficos": {
+      "elevation": [30, 60, 55, 70, 65, 40, 30],
+      "dificultad": [2, 2, 1],
+      "terreno": [85, 10, 5]
+    }
+  },
+  {
+    "slug": "ruta-del-caribe-cartagena",
+    "title": "Ruta del Caribe Cartagena",
+    "subtitle": "Una ruta costera desde Cartagena hasta La Boquilla",
+    "shortDescription": "Paseo costero con brisa marina y aroma a mar.",
+    "description": "Ruta ideal para un paseo en bici al amanecer o atardecer, recorriendo las murallas, Bocagrande y hasta la zona de manglares en La Boquilla.",
+    "image": "/ruta3.jpeg",
+    "distanciaKm": 18,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d298684.7441140322!2d-75.56274285992544!3d10.388114929461192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8ef62f7358eb65c9%3A0xb9e8d9ec1908859c!2sGetseman%C3%AD%2C%20Cartagena%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!3m2!1d10.4199938!2d-75.5458657!4m5!1s0x8ef63a5c93351073%3A0xda4e3085ba04f90d!2sManzanillo%20del%20Mar%2C%20Cartagena%2C%20Bol%C3%ADvar!3m2!1d10.516667!2d-75.5!5e0!3m2!1ses!2sco!4v1750808692855!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Murallas de Cartagena",
+        "descripcion": "Patrimonio histórico con vista al mar.",
+        "distanciaKm": 3.2
+      },
+      {
+        "nombre": "Playa Bocagrande",
+        "descripcion": "Área turística ideal para descansar.",
+        "distanciaKm": 8.6
+      },
+      {
+        "nombre": "Manglares de La Boquilla",
+        "descripcion": "Fin de la ruta con recorrido ecológico.",
+        "distanciaKm": 17.5
+      }
+    ],
+    "graficos": {
+      "elevation": [5, 10, 8, 6, 7, 5, 4],
+      "dificultad": [1, 1, 2],
+      "terreno": [90, 5, 5]
+    }
+  },
+  {
+    "slug": "camino-rural-en-popayan",
+    "title": "Camino Rural en Popayán",
+    "subtitle": "Explora el verde y la historia de Popayán",
+    "shortDescription": "Ruta entre veredas y quebradas cerca de Popayán.",
+    "description": "Disfruta de un recorrido lleno de naturaleza, pasando por caseríos coloniales y vegetación andina. Ideal para una salida de fin de semana.",
+    "image": "/ruta4.jpg",
+    "distanciaKm": 38,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63776.8906564235!2d-76.61972315558455!3d2.4885270564526576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e300319d56b5b6b%3A0xe7761ff323d5a9b8!2sHonda%20Supermotos%20del%20Cauca%2C%20Cra.%2017%20%237%20-%2075%2C%20Popay%C3%A1n%2C%20Cauca!3m2!1d2.4417651!2d-76.6151036!4m5!1s0x8e3005defc494041%3A0x49ba73e1a5826c6e!2sLa%20Cabuyera%2C%20Popay%C3%A1n%2C%20Cauca!3m2!1d2.5253099999999997!2d-76.55224!5e0!3m2!1ses!2sco!4v1750808857769!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Puente de Calicanto",
+        "descripcion": "Puente colonial con gran valor histórico.",
+        "distanciaKm": 8.2
+      },
+      {
+        "nombre": "Mirador El Morro",
+        "descripcion": "Vista panorámica de la ciudad y volcanes.",
+        "distanciaKm": 18.7
+      },
+      {
+        "nombre": "Parque Natural Yanaconas",
+        "descripcion": "Bosque húmedo alto andino protegido.",
+        "distanciaKm": 30.5
+      }
+    ],
+    "graficos": {
+      "elevation": [70, 90, 130, 150, 120, 100, 90],
+      "dificultad": [2, 3, 3],
+      "terreno": [50, 30, 20]
+    }
+  },
+  {
+    "slug": "ruta-del-cafe-en-pereira",
+    "title": "Ruta del Café en Pereira",
+    "subtitle": "Desde la ciudad al corazón cafetero",
+    "shortDescription": "Conoce fincas cafeteras y miradores rurales en Pereira.",
+    "description": "Esta ruta conecta la ciudad con zonas rurales de producción cafetera, ideal para aprender y disfrutar el paisaje típico del Eje Cafetero.",
+    "image": "/ruta5.jpg",
+    "distanciaKm": 45,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d127289.36921357817!2d-75.78391141726765!3d4.449614323041602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!3m2!1d4.5350003999999995!2d-75.6756888!4m5!1s0x8e38566b23bc0e27%3A0x19655ff754a8c8a!2sBuenavista%2C%20Quind%C3%ADo!3m2!1d4.358388!2d-75.7396929!5e0!3m2!1ses!2sco!4v1750808983095!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Finca El Mirador",
+        "descripcion": "Café artesanal y zona de descanso.",
+        "distanciaKm": 12.0
+      },
+      {
+        "nombre": "Estación Salento Bike",
+        "descripcion": "Punto de hidratación con mecánica básica.",
+        "distanciaKm": 25.3
+      },
+      {
+        "nombre": "Bosque de Palmas",
+        "descripcion": "Zona boscosa con senderos naturales.",
+        "distanciaKm": 37.8
+      }
+    ],
+    "graficos": {
+      "elevation": [90, 150, 130, 180, 160, 140, 110],
+      "dificultad": [3, 4, 3],
+      "terreno": [40, 40, 20]
+    }
+  },
+  {
+    "slug": "ciclotour-por-santa-marta",
+    "title": "Ciclotour por Santa Marta",
+    "subtitle": "Costa, cultura y ciclismo en la Perla del Caribe",
+    "shortDescription": "Ruta urbana y costera desde el centro histórico.",
+    "description": "Conecta el centro histórico de Santa Marta con Taganga y el Parque Natural Tayrona. Ideal para quienes buscan pedalear junto al mar.",
+    "image": "/ruta6.jpeg",
+    "distanciaKm": 32,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d125215.54718738038!2d-74.21980402909973!3d11.262450167634192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8ef4f66ff59a173d%3A0x124b95fc153af9b8!2sSanta%20Marta%2C%20Magdalena!3m2!1d11.2403547!2d-74.2110227!4m5!1s0x8ef48b22eaf45f4d%3A0x485723dccbdb882f!2sTayrona%20National%20Park%2C%20Magdalena!3m2!1d11.3064409!2d-74.0657561!5e0!3m2!1ses!2sco!4v1750809046647!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Malecón de Santa Marta",
+        "descripcion": "Vista al mar Caribe y cafés locales.",
+        "distanciaKm": 4.5
+      },
+      {
+        "nombre": "Bahía de Taganga",
+        "descripcion": "Parada ideal para fotos y ceviche.",
+        "distanciaKm": 12.6
+      },
+      {
+        "nombre": "Entrada Tayrona",
+        "descripcion": "Acceso al parque natural más visitado del Caribe.",
+        "distanciaKm": 28.4
+      }
+    ],
+    "graficos": {
+      "elevation": [20, 30, 35, 40, 30, 25, 20],
+      "dificultad": [2, 2, 2],
+      "terreno": [85, 10, 5]
+    }
+  },
+  {
+    "slug": "sendero-natural-de-armenia",
+    "title": "Sendero Natural de Armenia",
+    "subtitle": "Paisajes verdes y aire puro en el Quindío",
+    "shortDescription": "Ruta entre bosques y veredas rurales de Armenia.",
+    "description": "Disfruta una ruta relajante entre cafetales, bambúes gigantes y miradores del Quindío. Perfecta para paseos familiares o entrenamientos suaves.",
+    "image": "/ruta7.jpeg",
+    "distanciaKm": 29,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d63636.16505455582!2d-75.75484401586117!3d4.547108992965799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!3m2!1d4.5350003999999995!2d-75.6756888!4m5!1s0x8e385fc99dd07191%3A0xe96b88989d037cba!2sMontenegro%2C%20Quind%C3%ADo!3m2!1d4.566637!2d-75.75012!5e0!3m2!1ses!2sco!4v1750809107597!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Mirador El Bosque",
+        "descripcion": "Vista del valle y campos de café.",
+        "distanciaKm": 7.8
+      },
+      {
+        "nombre": "Centro Ecoturístico El Guadual",
+        "descripcion": "Área para descanso y actividades educativas.",
+        "distanciaKm": 15.3
+      },
+      {
+        "nombre": "Vereda La Española",
+        "descripcion": "Pequeño caserío rural con gran encanto natural.",
+        "distanciaKm": 24.5
+      }
+    ],
+    "graficos": {
+      "elevation": [60, 100, 90, 120, 110, 80, 60],
+      "dificultad": [2, 3, 2],
+      "terreno": [55, 30, 15]
+    }
+  },
+  {
+    "slug": "travesia-de-cali",
+    "title": "Travesía de Cali",
+    "subtitle": "Ruta que conecta la ciudad con sus ríos y montañas",
+    "shortDescription": "Ruta escénica entre los Farallones y el río Pance.",
+    "description": "Esta travesía une lo mejor de la naturaleza caleña: montañas, ríos y caminos sombreados. Ideal para ciclistas intermedios que buscan aventura y frescura.",
+    "image": "/ruta8.jpg",
+    "distanciaKm": 47,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d254909.88724147988!2d-76.69569597601762!3d3.3582324210043755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!3m2!1d3.4516467!2d-76.5319854!4m5!1s0x8e309eb12e0877d1%3A0xc87a434dcab6347e!2sJamund%C3%AD%2C%20Valle%20del%20Cauca!3m2!1d3.2617697!2d-76.5403266!5e0!3m2!1ses!2sco!4v1750809146779!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Parque El Ingenio",
+        "descripcion": "Inicio urbano con zonas verdes amplias.",
+        "distanciaKm": 5.0
+      },
+      {
+        "nombre": "Río Pance",
+        "descripcion": "Zona de descanso con piscinas naturales.",
+        "distanciaKm": 20.3
+      },
+      {
+        "nombre": "Farallones de Cali",
+        "descripcion": "Tramo montañoso con vista a la ciudad.",
+        "distanciaKm": 39.7
+      }
+    ],
+    "graficos": {
+      "elevation": [80, 130, 160, 200, 180, 150, 100],
+      "dificultad": [3, 4, 4],
+      "terreno": [45, 35, 20]
+    }
+  },
+  {
+    "slug": "circuito-ciclista-en-bogota",
+    "title": "Circuito Ciclista en Bogotá",
+    "subtitle": "Recorre la capital por su extensa red de ciclovías",
+    "shortDescription": "Ruta urbana que pasa por parques y avenidas principales.",
+    "description": "Ruta para recorrer Bogotá en domingo o festivo, aprovechando la ciclovía. Conecta puntos clave como el Parque Simón Bolívar, el Centro Histórico y la 26.",
+    "image": "/ruta9.jpg",
+    "distanciaKm": 34,
+    "iframeMapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d127245.763068907!2d-74.21135856623951!3d4.695091713753954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e3f9b0018be3fb1%3A0xca7816ba03aa4b57!2zQm9nb3TDoSBOb3J0ZSwgQ2FsbGUgMTE5LCBCb2dvdMOh!3m2!1d4.6963528!2d-74.03219399999999!4m5!1s0x8e3f77f0ada00867%3A0x43a976bf25ba6640!2sMosquera%2C%20Cundinamarca!3m2!1d4.7092566!2d-74.22622989999999!5e0!3m2!1ses!2sco!4v1750809202942!5m2!1ses!2sco",
+    "puntosDeInteres": [
+      {
+        "nombre": "Parque Simón Bolívar",
+        "descripcion": "Corazón verde de Bogotá, ideal para descansar.",
+        "distanciaKm": 5.6
+      },
+      {
+        "nombre": "Museo Nacional",
+        "descripcion": "Ubicado sobre la Séptima, paso obligado.",
+        "distanciaKm": 14.2
+      },
+      {
+        "nombre": "Centro Internacional",
+        "descripcion": "Zona empresarial y cultural muy activa.",
+        "distanciaKm": 29.5
+      }
+    ],
+    "graficos": {
+      "elevation": [60, 65, 70, 80, 75, 68, 60],
+      "dificultad": [2, 2, 2],
+      "terreno": [90, 8, 2]
+    }
+  }
+]
+

@@ -1,0 +1,21 @@
+---
+const { title } = Astro.props;
+---
+
+<nav class="breadcrumb">
+  <a href="/">Home</a> / 
+  <a href="/routes">Rutas</a> / 
+  <span>{title}</span>
+</nav>
+
+<style>
+.breadcrumb {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+.breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+}
+</style>

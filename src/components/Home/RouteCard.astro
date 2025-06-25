@@ -1,0 +1,12 @@
+---
+// components/RouteCard.astro
+const { image, title, description, slug } = Astro.props;
+---
+
+<a class="bg-white rounded-xl overflow-hidden shadow hover:shadow-md transition" href={`/routes/${slug}`}>
+  <img src={`images/rutas/${image}`} alt={title} class="w-full h-48 object-cover" />
+  <div class="p-4">
+    <h3 class="font-semibold text-lg">{title}</h3>
+    <p class="text-sm text-gray-600">{description}</p>
+  </div>
+</a>

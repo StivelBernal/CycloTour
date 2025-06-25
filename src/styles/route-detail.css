@@ -1,0 +1,44 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  font-family: system-ui, sans-serif;
+}
+
+.header-route {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}  
+
+
+.featured-image {
+ width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.mapa {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.descripcion {
+  margin-top: 40px;
+}
+
+.descripcion p {
+  line-height: 1.6;
+}

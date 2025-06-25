@@ -1,11 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import FormularioRuta from '../components/FormularioRuta.astro';
+import FormularioRuta from '../components/FormularioRuta/FormularioRuta.jsx';
+import Navbar from '../components/Navbar.astro';
 ---
 
-<BaseLayout title="Nueva Ruta">
-  <div class="bg-white p-6 rounded-lg shadow">
-    <h2 class="text-2xl font-semibold mb-4">Publicar nueva ruta</h2>
-    <FormularioRuta />
-  </div>
+<BaseLayout title="Crear nueva Ruta">
+  <main class="page-height">
+    <Navbar />
+    <section class="max-w-6xl mx-auto mt-12 px-4">
+      <FormularioRuta client:load />
+    </section>
+  </main>
 </BaseLayout>

@@ -1,0 +1,17 @@
+---
+// components/FeaturedRoutes.astro
+import randomRoutes from '../../utils/getRandomRoutes';
+import RouteCard from './RouteCard.astro';
+
+const routes = randomRoutes(3)
+
+---
+
+<section class="max-w-6xl mx-auto mt-12 px-4">
+  <h2 class="text-2xl font-bold mb-6">Rutas destacadas</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    {routes.map(route => (
+      <RouteCard {...route} />
+    ))}
+  </div>
+</section>

@@ -1,6 +1,7 @@
 ---
 // layouts/BaseLayout.astro
 const { title = "CycloTour" } = Astro.props;
+import Footer from '../components/Footer.astro';
 import './src/styles/global.css';
 ---
 
@@ -9,10 +10,11 @@ import './src/styles/global.css';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
-    <link rel="stylesheet" href="/src/styles/global.css">
-
+    <link rel="icon" href="/images/favicon.svg" type="image/svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body class="bg-gray-50 text-gray-900">
     <slot />
+    <Footer />
   </body>
 </html>
